@@ -13,8 +13,8 @@ public class CharacterController {
     private OnepieceAPIClient onepieceAPIClient;
 
     //endpoint que consuma de la onepiece api
-    @GetMapping("/characters/en/{charaterId}")
-    public CharacterDTO getCharacterInfo(@PathVariable("charaterId") int charaterId) {
-        return onepieceAPIClient.getCharacterInfo(charaterId);
+    @GetMapping("/characters/en/{characterId}")
+    public CharacterDTO getCharacterInfo(@PathVariable("characterId") int characterId) {
+        return onepieceAPIClient.getCharacterInfo(characterId);
     }
 }
