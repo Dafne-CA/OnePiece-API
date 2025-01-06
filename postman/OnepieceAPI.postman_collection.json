@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "310082d4-9ba4-490f-a524-a018f7062020",
+		"name": "OnepieceAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40531180"
+	},
+	"item": [
+		{
+			"name": "CharacterByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/characters/en/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"characters",
+						"en",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
